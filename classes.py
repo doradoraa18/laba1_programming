@@ -30,7 +30,9 @@ class Book:
             "title": self.title,
             "author": self.author,
             "price": self.price,
-            "quantity": self.quantity
+            "quantity": self.quantity 
+
+
         }
     
     @staticmethod
