@@ -23,6 +23,8 @@ class Book:
             raise ValidationException("Цена", price)
         if not isinstance(quantity, int) or quantity < 0:
             raise ValidationException("Количество", quantity)
+        
+        
     
     def to_dict(self):
         return {
@@ -31,6 +33,8 @@ class Book:
             "author": self.author,
             "price": self.price,
             "quantity": self.quantity 
+
+
 
 
         }
